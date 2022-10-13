@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { EjemploComponent } from './ejemplo/ejemplo.component';
 import { FormsModule } from '@angular/forms'; 
 import { ReactiveFormsModule } from '@angular/forms';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EjemploComponent
+    EjemploComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
